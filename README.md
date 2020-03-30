@@ -1,4 +1,5 @@
 #  **New York Times Article** #
+[Deployed Link](https://charrmountain.github.io/NYTsearch/)
 
 ## **Description**
 
@@ -10,10 +11,11 @@
 
 
     - ### **Style Sheets** (used on all HTML pages)**:**
-         1. [Bootstrap] (https://getbootstrap.com/Bootstrap)
+         1. [Bootstrap](https://getbootstrap.com/Bootstrap)
 
 
 ## **Usage**
+![alt](images/NYTSearch.png)
 - Search through all New York Times articles!
 
 ## **Support**
