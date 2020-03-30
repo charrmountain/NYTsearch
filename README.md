@@ -20,4 +20,4 @@
 
 ## **Support**
 - e-mail: charr.mt@gmail.com
-- https://github.com/charrmountain/NYTsearch
+- [GitHub](https://github.com/charrmountain/NYTsearch)
