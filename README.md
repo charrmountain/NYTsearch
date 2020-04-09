@@ -15,13 +15,13 @@
 - [Support](#support) 
 
 ## **Pages**
-    - ### **HTML pages:**
-         - [index.html](index.html) is the main home page for New York Times articles.
-         - [home-script.js](portfolio.html) is the JavaScript for script to make page run correctly.
+ - ### **HTML pages:**
+      - [index.html](index.html) is the main home page for New York Times articles.
+      - [script.js](script.js) is the JavaScript for script to make page run correctly.
 
 
-    - ### **Style Sheets** (used on all HTML pages)**:**
-         - [Bootstrap](https://getbootstrap.com/Bootstrap)
+- ### **Style Sheets** (used on all HTML pages)**:**
+     - [Bootstrap](https://getbootstrap.com/Bootstrap)
 
 
 ## **Usage**
