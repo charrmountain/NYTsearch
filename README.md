@@ -1,5 +1,6 @@
 #  **New York Times Article** #
 [Deployed Link](https://charrmountain.github.io/NYTsearch/)
+[GitHub](https://github.com/charrmountain/NYTsearch)
 
 ## **Description**
 
@@ -10,23 +11,33 @@
 
 - [Files](#files) 
 
+- [Visuals](#visuals) 
+
 - [Usage](#usage) 
 
 - [Support](#support) 
 
+
 ## **Pages**
+
  - ### **HTML pages:**
-      - [index.html](index.html) is the main home page for New York Times articles.
-      - [script.js](script.js) is the JavaScript for script to make page run correctly.
+      1. [index.html](index.html) is the main home page for New York Times articles.
+      2. [script.js](script.js) is the JavaScript for script to make page run correctly.
 
 
-- ### **Style Sheets** (used on all HTML pages)**:**
-     - [Bootstrap](https://getbootstrap.com/Bootstrap)
+ - ### **Style Sheets** (used on all HTML pages)**:**
+     1. [Bootstrap](https://getbootstrap.com/Bootstrap)
+
+
+## **Visuals**
+
+![alt](NYTSearchGif.gif)
 
 
 ## **Usage**
-![alt](NYTSearchGif.gif)
+
 - Search through all New York Times articles!
+
 
 ## **Support**
 
