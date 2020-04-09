@@ -1,6 +1,8 @@
 #  **New York Times Article** #
 [Deployed Link](https://charrmountain.github.io/NYTsearch/)
+
 [GitHub](https://github.com/charrmountain/NYTsearch)
+
 
 ## **Description**
 
