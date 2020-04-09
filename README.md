@@ -5,6 +5,16 @@
 
 -  User is able to search all New York Times articles through a key word. User can pick "Start Year" and "End Year". User can select between 1 , 5 , and 10 articles to be displayed on the page.
 
+
+### Table of Contents
+
+- [Files](#files) 
+
+- [Usage](#usage) 
+
+- [Support](#support) 
+
+## **Pages**
     - ### **HTML pages:**
          - [index.html](index.html) is the main home page for New York Times articles.
          - [home-script.js](portfolio.html) is the JavaScript for script to make page run correctly.
@@ -15,9 +25,9 @@
 
 
 ## **Usage**
-![alt](images/NYTSearch.png)
+![alt](NYTSearchGif.gif)
 - Search through all New York Times articles!
 
 ## **Support**
-- e-mail: charr.mt@gmail.com
-- [GitHub](https://github.com/charrmountain/NYTsearch)
+
+[<img src="https://avatars3.githubusercontent.com/u/60668617?v=4" alt="avatar" style="border-radius: 75px" width="75"/>](https://github.com/charrmountain)
