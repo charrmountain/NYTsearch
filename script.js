@@ -19,20 +19,20 @@ $("#search-button").on("click", function () {
     });
 });
 function renderTopArticles(result, numberRecords) {
-  console.log(result)
+
   for (var i = 0; i < numberRecords; i++) {
-    var newDiv = $("<div>")
-    var headline = $("<h6>").text(result.response.docs[i].headline.main);
-    var section = $("<p>").text("Section: " + result.response.docs[i].section_name);
-    var pubDate = $("<p>").text(result.response.docs[i].pub_date);
-    var url = $("<a>").text(result.response.docs[i].web_url);
+    var html = `
+    <div>
+      <a href=` + result.response.docs[i].web_url + `><h6>` + result.response.docs[i].headline.main + `</h6></a>
+      <img src= https://www.nytimes.com/`+ result.multimedia[0].url +`>
+      <p>Section: ` + result.response.docs[i].section_name + `</p>
+      <p>` + result.response.docs[i].section_name + `</p>
+      <p>` + result.response.docs[i].pub_date + `</p>
+    </div>
+    `;
+
     newDiv.attr("class", "border border-light p-3");
-    url.attr("href", result.response.docs[i].web_url);
-    newDiv.append(headline);
-    newDiv.append(section);
-    newDiv.append(pubDate);
-    newDiv.append(url);
-    $("#top-articles").append(newDiv);
+    $("#top-articles").append(html);
   }
 };
 $("#clear-button").on("click", function () {
