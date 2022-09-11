@@ -19,6 +19,7 @@ $("#search-button").on("click", function () {
     });
 });
 function renderTopArticles(result, numberRecords) {
+  console.log(result)
   for (var i = 0; i < numberRecords; i++) {
     var newDiv = $("<div>")
     var headline = $("<h6>").text(result.response.docs[i].headline.main);
