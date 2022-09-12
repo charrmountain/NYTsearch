@@ -12,11 +12,9 @@ $("#search-button").on("click", function () {
   $.ajax({
     url: queryURL,
     method: "GET"
-  })
-    .then(function (result) {
-      console.log(result);
-      renderTopArticles(result, numberRecords);
-    });
+  }).then(function (result) {
+    renderTopArticles(result, numberRecords);
+  });
 });
 function renderTopArticles(result, numberRecords) {
 
@@ -28,8 +26,6 @@ function renderTopArticles(result, numberRecords) {
       '<p>' + result.response.docs[i].section_name + '</p>' +
       '<p>' + result.response.docs[i].pub_date + '</p>' +
     '</div>';
-
-    newDiv.attr("class", "border border-light p-3");
     $("#top-articles").append(html);
   }
 };
