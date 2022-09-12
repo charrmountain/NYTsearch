@@ -29,9 +29,6 @@ function renderTopArticles(result, numberRecords) {
     '</div>';
     $("#top-articles").append(html);
   });
-  for (var i = 0; i < numberRecords; i++) {
-
-  }
 };
 $("#clear-button").on("click", function () {
     $("#top-articles").empty();
