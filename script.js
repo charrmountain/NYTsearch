@@ -18,15 +18,19 @@ $("#search-button").on("click", function () {
 });
 function renderTopArticles(result, numberRecords) {
 
-  for (var i = 0; i < numberRecords; i++) {
+  var documents = result.response.docs;
+  documents.forEach(document => {
     var html = ' <div class=""> ' +
-      '<a href=' + result.response.docs[i].web_url + '><h6>' + result.response.docs[i].headline.main + '</h6></a>' +
-      '<img src= https://www.nytimes.com/'+ result.multimedia[0].url +'>' +
-      '<p>Section: ' + result.response.docs[i].section_name + '</p>' +
-      '<p>' + result.response.docs[i].section_name + '</p>' +
-      '<p>' + result.response.docs[i].pub_date + '</p>' +
+      '<a href=' + document.web_url + '><h6>' + document.headline.main + '</h6></a>' +
+      '<img src= https://www.nytimes.com/'+ document.multimedia[0].url +'>' +
+      '<p>Section: ' + document.section_name + '</p>' +
+      '<p>' + document.section_name + '</p>' +
+      '<p>' + document.pub_date + '</p>' +
     '</div>';
     $("#top-articles").append(html);
+  });
+  for (var i = 0; i < numberRecords; i++) {
+
   }
 };
 $("#clear-button").on("click", function () {
