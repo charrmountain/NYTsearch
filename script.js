@@ -21,7 +21,6 @@ $("#search-button").on("click", function () {
 });
 function renderTopArticles(result) {
   var documents = result.response.docs;
-  console.log(documents);
   documents.forEach((document) => {
     var html =
       ' <figure class="article"> ' +
@@ -33,14 +32,14 @@ function renderTopArticles(result) {
       document.headline.main +
       "</h3>" +
       "<h5>" +
-      document.section_name +
+      document.byline.original +
       "</h5>" +
       "<blockquote>" +
       "<p> " +
       document.section_name +
       "</p>" +
       "<p>" +
-      document.pub_date +
+      document.abstract +
       "</p>" +
       "</blockquote>" +
       "<a href=" +
