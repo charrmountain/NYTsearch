@@ -1,0 +1,18 @@
+#nyt_search .header.container {
+  background-color: rgb(32, 42, 75);
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#nyt_search #search-parameters .card-header,
+#nyt_search .top_articles {
+  background-color: rgb(226, 226, 226);
+  font-weight: bold;
+}
+
+#nyt_search .search.container,
+#nyt_search i:not(#nyt_search .header.container i) {
+  color: grey;
+}
