@@ -1,13 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
-
-#nyt_search .header.container {
+body {
+  height: 100vh;
+}
+#nyt_search {
+  height: 100%;
+}
+#nyt_search .header {
   background-color: rgb(32, 42, 75);
   color: white;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  height: 50%;
 }
 
 #nyt_search .search .card-header,
