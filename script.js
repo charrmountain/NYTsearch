@@ -18,6 +18,7 @@ $("#search-button").on("click", function () {
   }).then(function (result) {
     $("#nyt_search .search.container").hide();
     $("#nyt_search .top_articles").show();
+    $("#nyt_search .top_articles").removeClass("d-none");
     renderTopArticles(result);
   });
 });
