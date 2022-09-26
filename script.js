@@ -32,14 +32,14 @@ function renderTopArticles(result) {
       document.headline.main +
       "</h3>" +
       "<h5>" +
-      document.byline.original +
+      document.section_name +
       "</h5>" +
       "<blockquote>" +
       "<p> " +
-      document.section_name +
+      document.abstract +
       "</p>" +
       "<p>" +
-      document.abstract +
+      document.byline.original +
       "</p>" +
       "</blockquote>" +
       "<a href=" +
