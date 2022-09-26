@@ -6,13 +6,9 @@
   padding-bottom: 50px;
 }
 
-#nyt_search #search-parameters .card-header,
-#nyt_search .top_articles {
+#nyt_search .search .card-header,
+#nyt_search .top_articles .card-header {
   background-color: rgb(226, 226, 226);
   font-weight: bold;
-}
-
-#nyt_search .search.container,
-#nyt_search i:not(#nyt_search .header.container i) {
-  color: grey;
+  letter-spacing: 5px;
 }
