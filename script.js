@@ -33,7 +33,7 @@ function renderTopArticles(result) {
       document.headline.main +
       "</h3>" +
       "<h5>" +
-      document.headline.main +
+      document.section_name +
       "</h5>" +
       "<blockquote>" +
       "<p> " +
