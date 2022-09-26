@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css2?family=Special+Elite&display=swap);
 body {
   height: 100vh;
 }
@@ -15,7 +16,9 @@ body {
   padding-bottom: 50px;
   height: 50%;
 }
-
+#nyt_search .nyt {
+  font-family: "Special Elite", cursive;
+}
 #nyt_search .search .card-header,
 #nyt_search .top_articles .card-header {
   background-color: rgb(226, 226, 226);
