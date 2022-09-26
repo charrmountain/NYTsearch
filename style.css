@@ -36,6 +36,7 @@
   font-size: 16px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   max-height: 350px;
+  min-height: 350px;
 }
 #nyt_search .article * {
   -webkit-transition: all 0.35s;
@@ -44,8 +45,9 @@
   box-sizing: border-box;
 }
 #nyt_search .article img {
-  max-width: 100%;
-  vertical-align: top;
+  position: absolute;
+  height: 100%;
+  object-fit: cover;
 }
 #nyt_search .article figcaption {
   position: absolute;
