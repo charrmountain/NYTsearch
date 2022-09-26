@@ -16,6 +16,8 @@ $("#search-button").on("click", function () {
     url: queryURL,
     method: "GET",
   }).then(function (result) {
+    $("#nyt_search .search.container").hide();
+    $("#nyt_search .top_articles").show();
     renderTopArticles(result);
   });
 });
