@@ -21,27 +21,31 @@ $("#search-button").on("click", function () {
 });
 function renderTopArticles(result) {
   var documents = result.response.docs;
+  console.log(documents);
   documents.forEach((document) => {
     var html =
-      ' <div class=""> ' +
-      "<a href=" +
-      document.web_url +
-      "><h6>" +
-      document.headline.main +
-      "</h6></a>" +
+      ' <figure class="article"> ' +
       "<img src= https://www.nytimes.com/" +
       document.multimedia[0].url +
       ">" +
-      "<p>Section: " +
-      document.section_name +
-      "</p>" +
-      "<p>" +
+      "<figcaption>" +
+      "<a href=" +
+      document.web_url +
+      "><h3>" +
+      document.headline.main +
+      "</h3></a>" +
+      "<h5>" +
+      document.headline.main +
+      "</h5>" +
+      "<blockquote>";
+    "<p> " +
       document.section_name +
       "</p>" +
       "<p>" +
       document.pub_date +
       "</p>" +
-      "</div>";
+      "</blockquote>" +
+      "</figure>";
     $("#top-articles").append(html);
   });
 }
