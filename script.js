@@ -29,22 +29,23 @@ function renderTopArticles(result) {
       document.multimedia[0].url +
       ">" +
       "<figcaption>" +
-      "<a href=" +
-      document.web_url +
-      "><h3>" +
+      "<h3>" +
       document.headline.main +
-      "</h3></a>" +
+      "</h3>" +
       "<h5>" +
       document.headline.main +
       "</h5>" +
-      "<blockquote>";
-    "<p> " +
+      "<blockquote>" +
+      "<p> " +
       document.section_name +
       "</p>" +
       "<p>" +
       document.pub_date +
       "</p>" +
       "</blockquote>" +
+      "<a href=" +
+      document.web_url +
+      "></a>" +
       "</figure>";
     $("#top-articles").append(html);
   });
